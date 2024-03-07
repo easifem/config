@@ -1,0 +1,630 @@
+{
+  "folder": {
+    "prefix": "folder",
+    "description": "folder",
+    "body": [
+      " 📁"
+    ]
+  },
+  "emo1": {
+    "prefix": "emo1",
+    "description": "emoji 1",
+    "body": [
+      "𑗕"
+    ]
+  },
+  "emo2": {
+    "prefix": "emo2",
+    "description": "emoji 2",
+    "body": [
+      "𑗗"
+    ]
+  },
+  "emo3": {
+    "prefix": "emo3",
+    "description": "emoji 3",
+    "body": [
+      "𑗌"
+    ]
+  },
+  "emo4": {
+    "prefix": "emo4",
+    "description": "emoji 4",
+    "body": [
+      "𑗕"
+    ]
+  },
+  "emo5": {
+    "prefix": "emo5",
+    "description": "emoji 5",
+    "body": [
+      "𑗍"
+    ]
+  },
+  "emo6": {
+    "prefix": "emo6",
+    "description": "emoji 6",
+    "body": [
+      "᪣"
+    ]
+  },
+  "emo7": {
+    "prefix": "emo7",
+    "description": "emoji 7",
+    "body": [
+      "᪥"
+    ]
+  },
+  "emo8": {
+    "prefix": "emo8",
+    "description": "emoji 8",
+    "body": [
+      "܀"
+    ]
+  },
+  "emo9": {
+    "prefix": "emo9",
+    "description": "emoji 9",
+    "body": [
+      "↢"
+    ]
+  },
+  "toggle": {
+    "prefix": "toggle",
+    "description": "toggle tab",
+    "body": [
+      "<details>",
+      "<summary>${1:Title}</summary>",
+      "<div>",
+      "",
+      "$2",
+      "",
+      "</div>",
+      "</details>"
+    ]
+  },
+  "pbadge": {
+    "prefix": "pbadge",
+    "description": "primary badge",
+    "body": [
+      "<span class=\"badge badge--primary\"> ${1:${TM_SELECTED_TEXT}} </span>"
+    ]
+  },
+  "primary badge": {
+    "prefix": "primary badge",
+    "description": "primary badge",
+    "body": [
+      "<span class=\"badge badge--primary\"> ${1:${TM_SELECTED_TEXT}} </span>"
+    ]
+  },
+  "sbadge": {
+    "prefix": "sbadge",
+    "description": "secondary badge",
+    "body": [
+      "<span class=\"badge badge--secondary\"> ${1:${TM_SELECTED_TEXT}} </span>"
+    ]
+  },
+  "secondary badge": {
+    "prefix": "secondary badge",
+    "description": "secondary badge",
+    "body": [
+      "<span class=\"badge badge--secondary\"> ${1:${TM_SELECTED_TEXT}} </span>"
+    ]
+  },
+  "success badge": {
+    "prefix": "success badge",
+    "description": "success badge",
+    "body": [
+      "<span class=\"badge badge--success\"> ${1:${TM_SELECTED_TEXT}} </span>"
+    ]
+  },
+  "info badge": {
+    "prefix": "info badge",
+    "description": "info badge",
+    "body": [
+      "<span class=\"badge badge--info\"> ${1:${TM_SELECTED_TEXT}} </span>"
+    ]
+  },
+  "warning badge": {
+    "prefix": "warning badge",
+    "description": "warning badge",
+    "body": [
+      "<span class=\"badge badge--warning\"> ${1:${TM_SELECTED_TEXT}} </span>"
+    ]
+  },
+  "see result": {
+    "prefix": "see result",
+    "description": "see result",
+    "body": [
+      "<details>",
+      "<summary>See results</summary>",
+      "<div>",
+      "",
+      "$0",
+      "",
+      "</div>",
+      "</details>"
+    ]
+  },
+  "see example": {
+    "prefix": "see example",
+    "description": "see example",
+    "body": [
+      "<Tabs>",
+      "<TabItem value=\"example\" label=\"example\">",
+      "",
+      "import EXAMPLE${TM_LINE_NUMBER} from \"./${1}\";",
+      "",
+      "<EXAMPLE${TM_LINE_NUMBER} />",
+      "",
+      "</TabItem>",
+      "",
+      "<TabItem value=\"close\" label=\"↢ close\" default>",
+      "",
+      "</TabItem>",
+      "</Tabs>"
+    ]
+  },
+  "interface and example": {
+    "prefix": "Interface and example",
+    "description": "Interface and example",
+    "body": [
+      "<Tabs>",
+      "<TabItem value=\"interface\" label=\"Interface\" default>",
+      "",
+      "```fortran",
+      " ",
+      "```",
+      "",
+      "</TabItem>",
+      "",
+      "<TabItem value=\"example\" label=\"example\">",
+      "",
+      "import EXAMPLE${TM_LINE_NUMBER} from \"./${0}\";",
+      "",
+      "<EXAMPLE${TM_LINE_NUMBER} />",
+      "",
+      "</TabItem>",
+      "",
+      "<TabItem value=\"close\" label=\"↢ close\">",
+      "",
+      "</TabItem>",
+      "</Tabs>",
+      ""
+    ]
+  },
+  "see interface": {
+    "prefix": "see interface",
+    "description": "see interface",
+    "body": [
+      "<Tabs>",
+      "<TabItem value=\"interface\" label=\"܀ See Interface\" default>",
+      "",
+      "```fortran",
+      " ",
+      "```",
+      "",
+      "</TabItem>",
+      "",
+      "<TabItem value=\"close\" label=\"↢ close\" default>",
+      "",
+      "</TabItem>",
+      "</Tabs>"
+    ]
+  },
+  "command result close": {
+    "prefix": "command result close",
+    "description": "create a tab for command result and close",
+    "body": [
+      "<Tabs>",
+      "",
+      "<TabItem value=\"command \" label=\"» Command\">",
+      "",
+      "",
+      "",
+      "</TabItem>",
+      "",
+      "<TabItem value=\"result\" label=\"» Result\">",
+      "",
+      "",
+      "",
+      "</TabItem>",
+      "",
+      "<TabItem value=\"close\" label=\"↢ close\" default>",
+      "",
+      "</TabItem>",
+      "",
+      "</Tabs>"
+    ]
+  },
+  "go": {
+    "prefix": "go",
+    "description": "go code fence",
+    "body": [
+      "```bash",
+      "${0}",
+      "```"
+    ]
+  },
+  "bash": {
+    "prefix": "bash",
+    "description": "bash code fence",
+    "body": [
+      "```bash",
+      "${0}",
+      "```"
+    ]
+  },
+  "fortran": {
+    "prefix": "fortran",
+    "description": "enter fortran code",
+    "body": [
+      "```fortran",
+      "${0}",
+      "```"
+    ]
+  },
+  "dfence": {
+    "prefix": "dfence",
+    "description": "break the fortran code fence in two parts",
+    "body": [
+      "```",
+      "",
+      "```fortran"
+    ]
+  },
+  "result": {
+    "prefix": "result",
+    "description": "results",
+    "body": [
+      "```bash title=\"results\"",
+      "$0",
+      "```"
+    ]
+  },
+  "danger": {
+    "prefix": "danger",
+    "description": "danger for pymdownx",
+    "body": [
+      "!!! danger \"$1\"",
+      "    $2"
+    ]
+  },
+  "summary": {
+    "prefix": "summary",
+    "description": "summary for pymdownx",
+    "body": [
+      "!!! summary \"$1\"",
+      "    $2"
+    ]
+  },
+  "include example": {
+    "prefix": "include example",
+    "description": "include example file",
+    "body": [
+      "",
+      "import EXAMPLE${TM_LINE_NUMBER} from \"./${1}\";",
+      "",
+      "<EXAMPLE${TM_LINE_NUMBER} />",
+      ""
+    ]
+  },
+  "note": {
+    "prefix": "note",
+    "description": "note block",
+    "body": [
+      ":::note $1",
+      "$0",
+      ":::"
+    ]
+  },
+  "abstract": {
+    "prefix": "abstract",
+    "description": "abstract for pymdownx",
+    "body": [
+      "!!! abstract \"$1\"",
+      "    $2"
+    ]
+  },
+  "information": {
+    "prefix": "information",
+    "description": "info for pymdownx",
+    "body": [
+      "!!! info \"$1\"",
+      "    $2"
+    ]
+  },
+  "interface": {
+    "prefix": "interface",
+    "description": "fortran code block for interface",
+    "body": [
+      "```fortran title=\"Interface\"",
+      "${1:${TM_SELECTED_TEXT}}",
+      "```"
+    ]
+  },
+  "tip": {
+    "prefix": "tip",
+    "description": "tip for pymdownx",
+    "body": [
+      "!!! tip \"$1\"",
+      "    $2"
+    ]
+  },
+  "success": {
+    "prefix": "success",
+    "description": "success for pymdownx",
+    "body": [
+      "!!! success \"$1\"",
+      "    $2"
+    ]
+  },
+  "question": {
+    "prefix": "question",
+    "description": "question for pymdownx",
+    "body": [
+      "!!! question \"$1\"",
+      "    $2"
+    ]
+  },
+  "warning": {
+    "prefix": "warning",
+    "description": "warning for pymdownx",
+    "body": [
+      "!!! warning \"$1\"",
+      "    $2"
+    ]
+  },
+  "failure": {
+    "prefix": "failure",
+    "description": "failure for pymdownx",
+    "body": [
+      "!!! failure \"$1\"",
+      "    $2"
+    ]
+  },
+  "bug": {
+    "prefix": "bug",
+    "description": "bug for pymdownx",
+    "body": [
+      "!!! bug \"$1\"",
+      "    $2"
+    ]
+  },
+  "quotation": {
+    "prefix": "quotation",
+    "description": "quote for pymdownx",
+    "body": [
+      "!!! quote \"$1\"",
+      "    $2"
+    ]
+  },
+  "cleanup": {
+    "prefix": "cleanup",
+    "description": "cleanup for fortran code",
+    "body": [
+      "!!! note \"cleanup\"",
+      "    $1"
+    ]
+  },
+  "frontmatter": {
+    "prefix": "frontmatter",
+    "description": "create front matter for easifem pages",
+    "body": [
+      "---",
+      "sidebar_position: 1",
+      "date:  ",
+      "update:  ",
+      "status: stable",
+      "docs: done",
+      "extpkgs: none",
+      "category: ",
+      "tags: ",
+      "---"
+    ]
+  },
+  "test": {
+    "prefix": "test",
+    "description": "create test file template for easifem",
+    "body": [
+      "---",
+      "author: Vikas Sharma, Ph.D.",
+      "date: $3",
+      "tags:",
+      "    - $4",
+      "---",
+      "    ",
+      "# $1 example $2",
+      "    ",
+      "## Modules and classes",
+      "    ",
+      "- [[]]",
+      "    ",
+      "## Usage",
+      "    ",
+      "```fortran",
+      "PROGRAM main",
+      "```",
+      "    ",
+      "```fortran",
+      "END PROGRAM main",
+      "```"
+    ]
+  },
+  "doc": {
+    "prefix": "documentation",
+    "description": "template for easifem documentation",
+    "body": [
+      "---",
+      "author: Vikas Sharma, Ph.D.",
+      "date: $1",
+      "---",
+      "    ",
+      "# $2 ",
+      "    ",
+      "## Introduction",
+      "    ",
+      "## Structure",
+      "    ",
+      "## Constructor Methods",
+      "    ",
+      "## IO Methods",
+      "    ",
+      "## Set Methods",
+      "    ",
+      "## Get Methods",
+      "    "
+    ]
+  },
+  "pages": {
+    "prefix": "page",
+    "description": "add page to module",
+    "body": "!{!pages/$1_.md!}"
+  },
+  "allint": {
+    "prefix": "allint",
+    "description": "all integer",
+    "body": "INTEGER(Int8| Int16 | Int32 | Int64)"
+  },
+  "allnumbers": {
+    "prefix": "allnumbers",
+    "description": "all numbers",
+    "body": "INTEGER(Int8| Int16 | Int32 | Int64) | REAL(Real32| Real64)"
+  },
+  "allreal": {
+    "prefix": "allreal",
+    "body": "REAL(Real32 | Real64) ",
+    "description": "all real"
+  },
+  "importDocs": {
+    "prefix": "importDocs",
+    "description": "import docs",
+    "body": [
+      "import DocCardList from '@theme/DocCardList';",
+      "",
+      "<DocCardList />"
+    ]
+  },
+  "importTabs": {
+    "prefix": "importTabs",
+    "description": "import tabs amd tabitems from theme",
+    "body": [
+      "import Tabs from '@theme/Tabs';",
+      "import TabItem from '@theme/TabItem';",
+      "$0"
+    ]
+  },
+  "createTabs": {
+    "prefix": "tabs",
+    "description": "create tabs",
+    "body": [
+      "<Tabs>",
+      "<TabItem value=\"${1:value}\" label=\"${2:label}\" default>",
+      "$0",
+      "</TabItem>",
+      "</Tabs>"
+    ]
+  },
+  "createTabItems": {
+    "prefix": "tabItems",
+    "description": "create tabs items",
+    "body": [
+      "<TabItem value=\"${1:value}\" label=\"${2:label}\">",
+      "",
+      "$0",
+      "",
+      "</TabItem>"
+    ]
+  },
+  "readMore": {
+    "prefix": "readmore",
+    "description": "Read more page",
+    "body": [
+      "import Link from '@docusaurus/Link';",
+      "",
+      "<div className='container margin-vert--lg'>",
+      "<div className='row row--no-gutters'>",
+      "<div className=\"col col--12\">",
+      "<Link to=\"/docs/QuadraturePoint/QuadraturePoint_\" className=\"button button--lg button--fill button--block button--success\">Read More</Link>",
+      "</div>",
+      "</div>",
+      "</div>",
+      ""
+    ]
+  },
+  "Italic Text": {
+    "prefix": [
+      "italic",
+      "\\italic",
+      "*"
+    ],
+    "body": "\\textit{$1}$0",
+    "description": "Insert italic text."
+  },
+  "Bold Text": {
+    "prefix": [
+      "bold",
+      "\\bold",
+      "**"
+    ],
+    "body": "\\textbf{$1}$0",
+    "description": "Insert bold text."
+  },
+  "Bold Italic Text": {
+    "prefix": [
+      "bolditalic",
+      "\\bolditalic",
+      "***"
+    ],
+    "body": "\\textbf{\\textit{$1}}$0",
+    "description": "Insert bold italic text."
+  },
+  "Bold Math": {
+    "prefix": [
+      "mathbf",
+      "\\mathbf"
+    ],
+    "body": "\\mathbf{$1}$0",
+    "description": "Insert bold text."
+  },
+  "frac": {
+    "prefix": [
+      "frac",
+      "\\frac"
+    ],
+    "body": "\\frac{$1}{$0}",
+    "description": "fraction"
+  },
+  "lambda": {
+    "prefix": [
+      "lambda",
+      "\\lambda"
+    ],
+    "body": "\\lambda",
+    "description": "lambda"
+  },
+  "xi": {
+    "prefix": [
+      "xi",
+      "\\xi"
+    ],
+    "body": "\\xi",
+    "description": "xi"
+  },
+  "eta": {
+    "prefix": [
+      "eta",
+      "\\eta"
+    ],
+    "body": "\\eta",
+    "description": "eta"
+  },
+  "zeta": {
+    "prefix": [
+      "zeta",
+      "\\zeta"
+    ],
+    "body": "\\zeta",
+    "description": "zeta"
+  }
+}
