@@ -1,9 +1,9 @@
-set -gx LD_LIBRARY_PATH /home/easifem/.easifem/easifem/install/fftw/lib $LD_LIBRARY_PATH
-set -gx LD_LIBRARY_PATH /home/easifem/.easifem/easifem/install/lapack95/lib $LD_LIBRARY_PATH
-set -gx LD_LIBRARY_PATH /home/easifem/.easifem/easifem/install/lis/lib $LD_LIBRARY_PATH
 set -gx LD_LIBRARY_PATH /home/easifem/.easifem/easifem/install/sparsekit/lib $LD_LIBRARY_PATH
+set -gx LD_LIBRARY_PATH /home/easifem/.easifem/easifem/install/superlu/lib $LD_LIBRARY_PATH
 set -gx LD_LIBRARY_PATH /home/easifem/.easifem/easifem/install/tomlf/lib $LD_LIBRARY_PATH
 set -gx LD_LIBRARY_PATH /home/easifem/.easifem/easifem/install/base/lib $LD_LIBRARY_PATH
-set -gx LD_LIBRARY_PATH /home/easifem/.easifem/easifem/install/classes/lib $LD_LIBRARY_PATH
+set -gx LD_LIBRARY_PATH /home/easifem/.easifem/easifem/install/lapack95/lib $LD_LIBRARY_PATH
+set -gx LD_LIBRARY_PATH /home/easifem/.easifem/easifem/install/fftw/lib $LD_LIBRARY_PATH
+set -gx LD_LIBRARY_PATH /home/easifem/.easifem/easifem/install/lis/lib $LD_LIBRARY_PATH
 set -gx LD_LIBRARY_PATH /home/easifem/.easifem/easifem/install/arpack/lib $LD_LIBRARY_PATH
-set -gx LD_LIBRARY_PATH /home/easifem/.easifem/easifem/install/superlu/lib $LD_LIBRARY_PATH
+set -gx LD_LIBRARY_PATH /home/easifem/.easifem/easifem/install/classes/lib $LD_LIBRARY_PATH
