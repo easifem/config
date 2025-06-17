@@ -1,0 +1,17 @@
+name = "oneDimElasticity"
+isActive = true
+buildSystem = "cmake"
+git = 'github.com/easifem/oneDimElasticity.git'
+sourceDir = "${HOME}/Dropbox/easifem/oneDimElasticity"
+buildType = "Debug"
+buildSharedLibs = true
+buildStaticLibs = true
+libName = "easifemOneDimElasticity"
+targetName = "easifemOneDimElasticity"
+projectName = "easifemOneDimElasticity"
+
+runtest = true
+license = "GPL3"
+# buildOptions = [ "-D USE_GMSH_SDK:BOOL=ON"]
+
+dependencies = ["classes"]

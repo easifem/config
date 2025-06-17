@@ -1,0 +1,18 @@
+name = "scalarWave"
+isActive = true
+buildSystem = "cmake"
+git = 'github.com/easifem/scalarWave.git'
+sourceDir = "${HOME}/Dropbox/easifem/scalarWave"
+buildType = "Debug"
+buildSharedLibs = true
+buildStaticLibs = true
+libName = "easifemScalarWave"
+targetName = "easifemScalarWave"
+projectName = "easifemScalarWave"
+
+runtest = true
+license = "GPL3"
+
+# buildOptions = [ "-D USE_GMSH_SDK:BOOL=ON"]
+
+dependencies = ["classes"]
