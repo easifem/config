@@ -12,4 +12,4 @@ runtest = true
 license = "GPL3"
 # buildOptions = ["--enable-omp", "--enable-f90", "--enable-shared"]
 buildOptions = ["--enable-omp", "--enable-f90", "--enable-shared", "--enable-saamg"]
-# envVars.CC = "gcc-15"
+envVars.CC = "gcc-15"

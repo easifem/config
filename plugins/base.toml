@@ -2,9 +2,9 @@ name = "base"
 buildSystem = "cmake"
 isActive = true
 git = 'github.com/easifem/base.git'
-sourceDir = "${HOME}/Dropbox/easifem/easifem-base/"
-buildDir = "${HOME}/.easifem/easifem/build/base/"
-installDir = "${HOME}/.easifem/easifem/install/base/"
+sourceDir = "${HOME}/Dropbox/easifem/base/"
+# buildDir = "${HOME}/.easifem/easifem/build/base/"
+# installDir = "${HOME}/.easifem/easifem/install/base/"
 buildType = "Debug" # "Debug", "Both"
 buildSharedLibs = true
 buildStaticLibs = false
@@ -37,7 +37,7 @@ buildOptions = [
 "-D USE_GMSH_SDK:BOOL=ON",
 "-D USE_INT32:BOOL=ON",
 "-D USE_REAL64:BOOL=ON",
-"-D USE_COLORDISP:BOOL=ON",
+"-D USE_COLORDISP:BOOL=OFF",
 ]
 
 dependencies = ["arpack", "sparsekit", "superlu", "lis", "fftw", "lapack95", "tomlf"]

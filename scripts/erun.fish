@@ -1,4 +1,4 @@
-function erun -d "efficient easifem run"
+function erun -d "easifem run"
     set -l currentPath ( pwd )
 
     argparse \
