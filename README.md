@@ -1,59 +1,13 @@
-# Configuring EASIFEM 
+# Configuring EASIFEM
 
-## Config
+This repository cointains the default plugin configuration for building and using easifem.
+It alos contains fish scripts which are handy to various tasks related to easifem.
 
-This repository contains the markdown snippets for writing documentation of easifem. The snippets are `json` files and they should work with the visual studio code and neovim.
+- This documentation is incomplete, we are a small team and we are working on it.
+- If you want to contribute then please open an issue or a pull request.
 
-### Using snippets in neovim
-
-Clone this repository by using one of the ways given below:
-
-HTTPS:
-
-```bash 
-https://github.com/easifem/snippets.git
-```
-
-SSH:
-
-```bash
-git@github.com:easifem/snippets.git
-```
-
-GitHub CLI:
-
-```bash
-gh repo clone easifem/snippets
-```
-
-Step-2: Move these snippets to `neovim` config folder. 
-
-```bash 
-cd snippets
-cp easifem-fortran.json ~/.config/nvim/snippets/easifem-fortran.json
-cp easifem-markdown.json ~/.config/nvim/snippets/easifem-markdown.json
-```
-
-Step-3: Add config files to `package.json`
-
-```bash 
-cd ~/.config/nvim/snippets/
-```
-
-Open the `package.json` file and add the following.
-
-```bash
-{
-  "language": ["markdown"],
-  "path": "./easifem-markdown.json"
-},
-{
-  "language": ["fortran", "markdown"],
-  "path": "./easifem-fortran.json"
-},
-```
+## TODO
 
 ## Fish scripts
 
 You can read about fish scripts installation and usage [here](./scripts/README.md)
-
