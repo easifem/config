@@ -6,6 +6,8 @@ sourceDir = "${HOME}/Dropbox/easifem/classes/"
 # buildDir = "${HOME}/.easifem/easifem/build/classes/"
 # installDir = "${HOME}/.easifem/easifem/install/classes/"
 buildType = "Debug"
+# buildType = "Release"
+# buildType = "Both"
 buildSharedLibs = true
 buildStaticLibs = false
 libName = "easifemClasses"
@@ -21,9 +23,11 @@ license = "GPL3"
 # cmakePrefixPath=["${HOME}/.easifem/easifem/install/base/"]
 
 buildOptions = [
-"-D USE_LIS:BOOL=ON",
-"-D USE_GMSH_SDK:BOOL=ON"
+  "-D USE_LIS:BOOL=ON",
+  "-D USE_GMSH_SDK:BOOL=ON",
+  "-DCMAKE_Fortran_COMPILER=/opt/homebrew/bin/gfortran-15",
 ]
 
-dependencies = ["base"]
+# "-DCMAKE_Fortran_COMPILER=/opt/homebrew/bin/gfortran-15",
 
+dependencies = ["base"]

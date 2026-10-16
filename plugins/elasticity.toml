@@ -1,0 +1,17 @@
+name = "elasticity"
+isActive = true
+buildSystem = "cmake"
+git = 'github.com/easifem/elasticity.git'
+sourceDir = "${HOME}/Dropbox/easifem/elasticity"
+buildType = "Debug"
+buildSharedLibs = true
+buildStaticLibs = true
+libName = "easifemElasticity"
+targetName = "easifemElasticity"
+projectName = "easifemElasticity"
+runtest = true
+license = "GPL3"
+
+# buildOptions = [ "-D USE_GMSH_SDK:BOOL=ON"]
+
+dependencies = ["classes"]

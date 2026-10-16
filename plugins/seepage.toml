@@ -4,6 +4,7 @@ buildSystem = "cmake"
 git = 'github.com/easifem/seepage.git'
 sourceDir = "${HOME}/Dropbox/easifem/seepage"
 buildType = "Debug"
+# buildType = "Debug"
 buildSharedLibs = true
 buildStaticLibs = true
 libName = "easifemSeepage"

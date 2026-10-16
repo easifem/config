@@ -1,0 +1,18 @@
+name = "sdof"
+isActive = true
+buildSystem = "cmake"
+git = 'github.com/easifem/sdof.git'
+sourceDir = "${HOME}/Dropbox/easifem/sdof"
+buildType = "Debug"
+buildSharedLibs = true
+buildStaticLibs = true
+libName = "easifemSDOF"
+targetName = "easifemSDOF"
+projectName = "easifemSDOF"
+
+runtest = true
+license = "GPL3"
+
+buildOptions = ["-DCMAKE_Fortran_COMPILER=/opt/homebrew/bin/gfortran-15"]
+
+dependencies = ["classes"]

@@ -5,9 +5,9 @@ git = 'github.com/easifem/base.git'
 sourceDir = "${HOME}/Dropbox/easifem/base/"
 # buildDir = "${HOME}/.easifem/easifem/build/base/"
 # installDir = "${HOME}/.easifem/easifem/install/base/"
-# buildType = "Debug"
+buildType = "Debug"
+# buildType = "Release"
 # buildType = "Both" 
-buildType = "Release"
 buildSharedLibs = true
 buildStaticLibs = false
 usePreset = true
@@ -25,7 +25,7 @@ runtest = true
 license = "GPL3"
 buildOptions = [
   "-D USE_OPENMP:BOOL=ON",
-  "-D USE_PLPLOT:BOOL=ON",
+  "-D USE_PLPLOT:BOOL=OFF",
   "-D USE_BLAS95:BOOL=ON",
   "-D USE_LAPACK95:BOOL=ON",
   "-D USE_FFTW:BOOL=ON",
@@ -41,7 +41,9 @@ buildOptions = [
   "-D USE_INT32:BOOL=ON",
   "-D USE_REAL64:BOOL=ON",
   "-D USE_COLORDISP:BOOL=OFF",
+  "-DCMAKE_Fortran_COMPILER=/opt/homebrew/bin/gfortran-15",
 ]
+
 
 dependencies = [
   "arpack",

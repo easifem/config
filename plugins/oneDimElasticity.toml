@@ -12,6 +12,7 @@ projectName = "easifemOneDimElasticity"
 
 runtest = true
 license = "GPL3"
-# buildOptions = [ "-D USE_GMSH_SDK:BOOL=ON"]
+
+buildOptions = ["-DCMAKE_Fortran_COMPILER=/opt/homebrew/bin/gfortran-15"]
 
 dependencies = ["classes"]
